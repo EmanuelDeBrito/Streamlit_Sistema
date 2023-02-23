@@ -1,5 +1,6 @@
 # Importações
 import streamlit as st # Importando o streamlit com o apelido de st
+from streamlit_extras.let_it_rain import rain # Do streamlit extras importando um componente
 from PIL import Image # Importando Image da biblioteca de imagem PILLOW
 import requests # Importando a biblioteca requests
 import streamlit_lottie # Importando o lottie
@@ -34,6 +35,14 @@ wellington_json = lottieurl(wellington)
 
 # Um titulo do BananaWeb
 st.title('BananaWeb')
+
+# Fazendo um rain na página
+rain(
+    emoji="🍌",
+    font_size=34,
+    falling_speed=5,
+    animation_length="infinite",
+    )
 
 # colocando um texto em formato de linguagem
 codigo = ''' def bananinha():
