@@ -1,5 +1,6 @@
 # Importações
 import streamlit as st # Importando o streamlit com o apelido de st
+import streamlit_extras # Importando o streamlit_extras
 from streamlit_extras.let_it_rain import rain # Do streamlit extras importando um componente
 from PIL import Image # Importando Image da biblioteca de imagem PILLOW
 import requests # Importando a biblioteca requests
