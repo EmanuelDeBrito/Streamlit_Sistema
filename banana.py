@@ -1,3 +1,5 @@
+# Feito por Emanuel de Brito com Streamlit
+
 # Importações
 import streamlit as st # Importando o streamlit com o apelido de st
 from streamlit_extras.let_it_rain import rain # Do streamlit extras importando um componente
