@@ -58,7 +58,7 @@ codigo = ''' def bananinha():
 st.code(codigo, language="python")
 
 # Atribuindo a uma variavel o caminho da imagem
-programacao = Image.open(r"BananaWeb/img/dev.jpg")
+programacao = Image.open(r"img/dev.jpg")
 
 # Colocando a imagem na tela
 st.image(programacao)
